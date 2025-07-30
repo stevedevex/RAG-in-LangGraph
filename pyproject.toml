@@ -1,0 +1,24 @@
+[project]
+name = "rag-in-langgraph"
+version = "0.1.0"
+description = "A RAG (Retrieval Augmented Generation) project implemented with LangGraph."
+authors = [
+  { name = "kuhung", email = "hi@kuhung.me" },
+]
+dependencies = [
+  "langchain",
+  "langchain_core",
+  "langgraph",
+  "jupyter",
+  "python-dotenv",
+  "pypdf",
+  "langchain_openai",
+  "langchain_community",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta" 
